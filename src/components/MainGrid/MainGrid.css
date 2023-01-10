@@ -1,0 +1,32 @@
+.main-grid-cols img
+{
+    border-radius: 12px;
+}
+.grid-img-div
+{
+    position: absolute;
+    bottom: 0;
+    color:white;
+    padding: 20px 0px;
+}
+.main-grid-cols .img-text
+{
+    transform-origin: center center;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+}
+.main-grid-cols:hover .img-text
+{
+    transform: translateY(-15px);
+}
+.img-city-span
+{
+    color: white;
+    display: block;
+    font-weight: bold;
+    margin: 0px auto;
+}
+.img-text-span
+{
+    font-weight: 500;
+}

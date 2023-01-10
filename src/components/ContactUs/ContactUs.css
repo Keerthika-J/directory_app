@@ -1,0 +1,61 @@
+.contact-us-page
+{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: #fafafb;
+}
+.send-mail-section
+{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+}
+.lets-talk-section,.send-mail-section
+{
+    margin: 64px 0px;
+}
+.lets-talk-subheading
+{
+    line-height: 1.5;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.address-phone-email
+{
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+.small-flex-div
+{
+    display: flex;
+    align-items: baseline;
+}
+.send-mail-section input,textarea
+{
+    background-color:#fafafb;
+    border: none;
+    outline: none;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+}
+.send-mail-section textarea
+{
+    width: 100%;
+    min-height: 175px;
+    margin: 32px 4px;
+}
+.send-mail-section input[type=text]
+{
+    height: 50px;
+}
+.send-msg-button
+{
+    height: 50px;
+    background-color: #fac300;
+    padding: 15px 25px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+}

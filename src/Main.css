@@ -1,0 +1,60 @@
+.heading-text, .white-section, .gray-section
+{
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.main-grid-section, .popular-retailers-container, .popular-locations, .start-search, .retailers-grid
+{
+  margin: 32px 0px;
+}
+.heading-text h1
+{
+    color: #fac300;
+    font-weight: bold;
+    text-align: center;
+}
+.heading-text p
+{
+    font-weight: 600;
+    font-size:large;
+    text-align: center;
+}
+.start-search
+{
+  width:300px;
+  height: 50px;
+  background-color: #fac300;
+  padding: 15px 25px;
+  color: white;
+  font-weight: 500;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.gray-section
+{
+  background-color: #fafafb;
+}
+.white-section
+{
+  background-color: white;
+}
+.view-button
+{
+  border: 1px solid #fafafb;
+  padding: 8px;
+}
+.popular-locations span
+{
+  display: block;
+  font-weight: 600;
+  font-size:large;
+}
+@media all and (max-width: 420px) 
+{
+  .start-search
+  {
+    width: 100%;
+  }
+}

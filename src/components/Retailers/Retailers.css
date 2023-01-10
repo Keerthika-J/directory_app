@@ -1,0 +1,68 @@
+/* .retailers-grid
+{
+    padding: 64px 0px 32px 0px;
+} */
+.retailers-grid-col
+{
+    border-radius: 12px;
+    border: 1px solid #e0e0e0;
+}
+.retailers-grid-img
+{
+    width: 300px;
+    height: 180px;
+    border-radius: 12px;
+    object-fit: cover;
+    border: 1px solid #e0e0e0;
+}
+/* .business-heading
+{
+    padding: 64px 0px 0px 0px;
+} */
+.business-details-section
+{
+    background-color: #fafafb;
+    /* padding: 32px 0px; */
+}
+/* .details-div-1
+{
+    padding: 32px 0px;;
+} */
+.contact-business
+{
+    width: 320px;
+    height: 60px;
+    background-color: #fac300;
+    color: white;
+    font-weight: bold;
+}
+.absolute-buttons
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fac300;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: small;
+}
+.weekdays-section
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4px;
+}
+@media all and (max-width: 420px) 
+{
+    .retailers-grid-img
+    {
+        width: 160px;
+        height: 130px;
+    }
+    /* .business-details-section, .business-details
+    {
+      padding: 32px 0px 16px 0px;
+    } */
+}

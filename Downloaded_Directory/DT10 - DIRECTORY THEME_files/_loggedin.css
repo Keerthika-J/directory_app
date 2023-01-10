@@ -1,0 +1,45 @@
+/*------------------------------------------*/
+/*	29 - CHAT ICONS
+/*------------------------------------------*/
+
+.ppt-smile-icon { width:26px; height:26px;     display: inline-block;    font-style: normal;    font-variant: normal;    text-rendering: auto;     background-size: cover; background-position:center; }
+.ppt-smile-icon.icon-wink {  background-image:url(../images/smiles/wink.svg); }
+
+.icon-size-chatwindow { width: 60px;    height: 60px; }
+
+.ppt-smile-icon.icon-angel {  background-image:url(../images/smiles/angel.svg); }
+.ppt-smile-icon.icon-angry {  background-image:url(../images/smiles/angry.svg); }
+.ppt-smile-icon.icon-cap {  background-image:url(../images/smiles/cap.svg); }
+.ppt-smile-icon.icon-clown {  background-image:url(../images/smiles/clown.svg); }
+.ppt-smile-icon.icon-confused {   background-image:url(../images/smiles/confused.svg); }
+
+.ppt-smile-icon.icon-cool{  background-image:url(../images/smiles/cool.svg); }
+.ppt-smile-icon.icon-crying {  background-image:url(../images/smiles/crying.svg); }
+.ppt-smile-icon.icon-cyber {  background-image:url(../images/smiles/cyber.svg); }
+.ppt-smile-icon.icon-depression {  background-image:url(../images/smiles/depression.svg); }
+.ppt-smile-icon.icon-dislike {  background-image:url(../images/smiles/dislike.svg); }
+.ppt-smile-icon.icon-eyeglass {  background-image:url(../images/smiles/eyeglass.svg); }
+.ppt-smile-icon.icon-gay {  background-image:url(../images/smiles/gay.svg); }
+
+
+.ppt-smile-icon.icon-geek {  background-image:url(../images/smiles/geek.svg); }
+.ppt-smile-icon.icon-happy {  background-image:url(../images/smiles/happy.svg); }
+.ppt-smile-icon.icon-humor {  background-image:url(../images/smiles/humor.svg); }
+.ppt-smile-icon.icon-kiss {  background-image:url(../images/smiles/kiss.svg); }
+.ppt-smile-icon.icon-laughing {  background-image:url(../images/smiles/laughing.svg); }
+.ppt-smile-icon.icon-like {  background-image:url(../images/smiles/like.svg); }
+.ppt-smile-icon.icon-love {  background-image:url(../images/smiles/love.svg); }
+.ppt-smile-icon.icon-money {  background-image:url(../images/smiles/money.svg); }
+.ppt-smile-icon.icon-mustache {  background-image:url(../images/smiles/mustache.svg); }
+.ppt-smile-icon.icon-punk {  background-image:url(../images/smiles/punk.svg); }
+.ppt-smile-icon.icon-robot {  background-image:url(../images/smiles/robot.svg); }
+.ppt-smile-icon.icon-security {  background-image:url(../images/smiles/security.svg); }
+.ppt-smile-icon.icon-sleepi {  background-image:url(../images/smiles/sleepi.svg); }
+.ppt-smile-icon.icon-smarth {  background-image:url(../images/smiles/smarth.svg); }
+.ppt-smile-icon.icon-smile {  background-image:url(../images/smiles/smile.svg); }
+.ppt-smile-icon.icon-star {  background-image:url(../images/smiles/star.svg); }
+.ppt-smile-icon.icon-sunglass {  background-image:url(../images/smiles/sunglass.svg); }
+.ppt-smile-icon.icon-sunglass_2 {  background-image:url(../images/smiles/sunglass_2.svg); }
+.ppt-smile-icon.icon-sunglass_3 {  background-image:url(../images/smiles/sunglass_3.svg); }
+.ppt-smile-icon.icon-suprise {  background-image:url(../images/smiles/surprise.svg); }
+.ppt-smile-icon.icon-tounge {  background-image:url(../images/smiles/tongue.svg); } 

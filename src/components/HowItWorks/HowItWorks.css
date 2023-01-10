@@ -1,0 +1,44 @@
+.how-it-works-heading
+{
+    padding-bottom: 32px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.how-it-works-grid,.subscription-payment-grid
+{
+    margin: 64px 0px;
+}
+.white-cards
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.card-1
+{
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    display: flex;
+    align-items: center;
+}
+.numbers-circle-1-2-3
+{
+    width: 48px;
+    height: 48px;
+    color: white;
+    background-color: #fac300;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px;
+}
+.add-business-button,.start-search-button
+{
+    height: 50px;
+    background-color: #fac300;
+    padding: 15px 25px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
