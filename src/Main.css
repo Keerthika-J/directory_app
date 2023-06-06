@@ -1,29 +1,48 @@
+.active li
+{
+  color: #FAC300;
+}
 .heading-text, .white-section, .gray-section
 {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.main-grid-section, .popular-retailers-container, .popular-locations, .start-search, .retailers-grid
+/* .main-grid-section, .popular-retailers-container, .start-search, .review-flex-container, .about-us-grid,
+.quick-to-install, .how-it-works-grid,.subscription-payment-grid, .lets-talk-section,.send-mail-section, .heading-text
 {
-  margin: 32px 0px;
+  margin: 32px auto;
+  width: 60%;
+} */
+.popular-locations
+{
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 16px;
+}
+.retailers-grid
+{
+  margin: 32px auto;
 }
 .heading-text h1
 {
-    color: #fac300;
-    font-weight: bold;
+    font-weight: 700;
     text-align: center;
+    line-height: 1.5;
+    font-size: 2.5rem;
 }
 .heading-text p
 {
-    font-weight: 600;
-    font-size:large;
+    font-weight:500;
     text-align: center;
+    font-size: 1.25rem;
+    line-height: 1.5;
 }
 .start-search
 {
   width:300px;
   height: 50px;
-  background-color: #fac300;
   padding: 15px 25px;
   color: white;
   font-weight: 500;
@@ -32,29 +51,99 @@
   align-items: center;
   justify-content: space-between;
 }
-.gray-section
-{
-  background-color: #fafafb;
-}
-.white-section
-{
-  background-color: white;
-}
-.view-button
+/* .view-button
 {
   border: 1px solid #fafafb;
   padding: 8px;
-}
+} */
 .popular-locations span
 {
   display: block;
   font-weight: 600;
-  font-size:large;
 }
-@media all and (max-width: 420px) 
+/* @media all and (max-width: 420px) 
 {
   .start-search
   {
     width: 100%;
+  }
+} */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) 
+{
+  .start-search
+  {
+    width: 90%;
+  }
+  .main-grid-section, .popular-retailers-container, .review-flex-container, .about-us-grid, .footer-section,
+  .quick-to-install, .how-it-works-grid,.subscription-payment-grid, .lets-talk-section,.send-mail-section, .heading-text, .nav-div, .business-details
+  {
+    margin: 32px auto;
+    width: 90%;
+  }
+  .about-heading, .how-it-works-heading, .contact-heading,.filters-section
+  {
+    width: 90%;
+    margin: auto;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+{
+  .main-grid-section, .popular-retailers-container, .review-flex-container, .about-us-grid, .footer-section,
+  .quick-to-install, .how-it-works-grid,.subscription-payment-grid, .lets-talk-section,.send-mail-section, .heading-text, .nav-div, .business-details
+  {
+    margin: 32px auto;
+    width: 85%;
+  }
+  .about-heading, .how-it-works-heading, .contact-heading,.filters-section
+  {
+    width: 85%;
+    margin: auto;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) 
+{
+  .main-grid-section, .popular-retailers-container, .review-flex-container, .about-us-grid, .footer-section,
+  .quick-to-install, .how-it-works-grid,.subscription-payment-grid, .lets-talk-section,.send-mail-section, .heading-text, .nav-div, .business-details
+  {
+    margin: 32px auto;
+    width: 85%;
+  }
+  .about-heading, .how-it-works-heading, .contact-heading, .filters-section
+  {
+    width: 85%;
+    margin: auto;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) 
+{
+  .main-grid-section, .popular-retailers-container, .review-flex-container, .about-us-grid, .footer-section,
+  .quick-to-install, .how-it-works-grid,.subscription-payment-grid, .lets-talk-section,.send-mail-section, .heading-text, .nav-div, .business-details
+  {
+    margin: 32px auto;
+    width: 70%;
+  }
+  .about-heading, .how-it-works-heading, .contact-heading, .filters-section
+  {
+    width: 70%;
+    margin: auto;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) 
+{
+  .main-grid-section, .popular-retailers-container, .review-flex-container, .about-us-grid, .footer-section,
+  .quick-to-install, .how-it-works-grid,.subscription-payment-grid, .lets-talk-section,.send-mail-section, .heading-text, .nav-div, .business-details
+  {
+    margin: 32px auto;
+    width: 60%;
+  }
+  .about-heading, .how-it-works-heading, .contact-heading, .filters-section
+  {
+    width: 60%;
+    margin: auto;
   }
 }

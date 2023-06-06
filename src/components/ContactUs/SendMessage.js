@@ -16,7 +16,7 @@ export default function SendMessage()
                     <input type="checkbox" class="w-[20px] h-[20px]"></input>
                     <span class="text-xs mx-4">I accept the privacy policy</span>
                 </div>  
-                <button class="send-msg-button">Send</button>
+                <button class="send-msg-button bg-primary">Send</button>
             </div>            
       </form>
     </div>

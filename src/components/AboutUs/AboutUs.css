@@ -1,6 +1,6 @@
 .about-us-grid
 {
-    margin: 64px 0px;
+    /* margin: 64px 0px; */
 }
 .quick-to-install
 {
@@ -15,10 +15,12 @@
 }
 .get-started-now-button
 {
+    width: 100%;
+    max-width: 500px;
     height: 50px;
-    background-color: #fac300;
     padding: 15px 25px;
     color: white;
     font-weight: bold;
     text-align: center;
+    border-radius: 4px;
 }

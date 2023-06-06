@@ -1,4 +1,3 @@
-import Header from './components/Header/Header';
 import MainGrid from './components/MainGrid/MainGrid';
 import Retailers from './components/Retailers/Retailers';
 import './Main.css';
@@ -8,28 +7,26 @@ function Main() {
   <div class='main-page'>
     {/* Over 1,000 Local Business Listings. */}
     <div class='body'>
-      <div class='gray-section px-4 md:px-8 lg:px-44'>
+      <div class='gray-section bg-secondary'>
         <div class='heading-text'>
-          <h1 class="text-3xl md:text-5xl">Over 1,000 Local Business Listings.</h1>
+          <h1 class="text-primary">Over 1,000 Local Business Listings.</h1>
           <p class="my-2">Need someone to help? You'll find them here!</p>
         </div>
         <div class="main-grid-section">
-        <MediaQuery query="(min-width: 420px)">
-          <MainGrid/>
-        </MediaQuery>         
+          <MainGrid/>         
         </div>
         <div class='search-button flex justify-center'>
-          <button class='start-search'>Start Search
+          <button class='start-search bg-primary'>Start Search
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right ml-2" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/> </svg>
           </button>        
         </div>
       </div>
-      <div class='white-section px-4 md:px-8 lg:px-44'>
+      <div class='white-section bg-white'>
         {/* Review flex */}
         <div class='review-flex-container flex'>
           <div class="flex items-center">
             <div class="w-1/4">
-              <img src={require('C:/Users/91950/directory_app/src/components/images/review_img.png')} class="py-2 rounded-full"></img>
+              <img src={require('D:/KODEON/Repositories/directory_app/src/components/images/review_img.png')} alt="review_img.png" class="py-2 rounded-full"></img>
             </div>
             <div class="block w-9/12 ml-4">
               <span>" Et vim graeco principes. Cu dico nullam pri stet possim quaerendum."</span>
@@ -44,7 +41,7 @@ function Main() {
           <MediaQuery query="(min-width: 420px)">
           <div class="flex items-center">
             <div class="w-1/4">
-              <img src={require('C:/Users/91950/directory_app/src/components/images/review_img.png')} class="py-2 rounded-full"></img>
+              <img src={require('D:/KODEON/Repositories/directory_app/src/components/images/review_img.png')} alt="review_img.png" class="py-2 rounded-full"></img>
             </div>
             <div class="block w-9/12 ml-4">
               <span>" Et vim graeco principes. Cu dico nullam pri stet possim quaerendum."</span>
@@ -58,7 +55,7 @@ function Main() {
           </div>
           <div class="flex items-center">
             <div class="w-1/4">
-              <img src={require('C:/Users/91950/directory_app/src/components/images/review_img.png')} class="py-2 rounded-full"></img>
+              <img src={require('D:/KODEON/Repositories/directory_app/src/components/images/review_img.png')} alt="review_img.png" class="py-2 rounded-full"></img>
             </div>
             <div class="block w-9/12 ml-4">
               <span>" Et vim graeco principes. Cu dico nullam pri stet possim quaerendum."</span>
@@ -85,12 +82,14 @@ function Main() {
           <div class="retailers-grid">
             <Retailers/>
           </div>
-          <div class="popular-locations lg:w-2/4 float-right">
+          <div class="popular-locations">
+            <div class="popular-text-div w-full md:w-3/6">
             <span class="block">Popular locations</span>
-            <p class="block my-2 text-justify">
+            <p class="block mt-8 text-justify">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus eleifend risus ut congue. Pellentesque nec lacus elit. Pellentesque convallis nisi ac augue pharetra eu tristique neque consequat. Mauris ornare tempor nulla, vel sagittis diam convallis eget.<br></br><br></br>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus eleifend risus ut congue. Pellentesque nec lacus elit. Pellentesque convallis nisi ac augue pharetra eu tristique neque consequat. Mauris ornare tempor nulla, vel sagittis diam convallis eget.
             </p>
+            </div>
         </div>
         </div>       
       </div>

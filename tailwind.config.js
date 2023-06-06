@@ -8,9 +8,9 @@ module.exports = {
     {
       'black':'#000000',
       'white':'#FFFFFF',
-      'yellow':'#FAC300',
-      'gray':"#fafafb",
-      'border-gray':"#e0e0e0",
+      'primary':'#FAC300',
+      'secondary':"#fafafb",
+      'borders':"#e0e0e0",
     }
   },
   plugins: [],

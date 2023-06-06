@@ -4,45 +4,56 @@
 } */
 .retailers-grid-col
 {
-    border-radius: 12px;
-    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    height: fit-content;
+    min-width: 200px;
+    min-height: 200px;
 }
 .retailers-grid-img
 {
-    width: 300px;
-    height: 180px;
-    border-radius: 12px;
+    width: 100%;
+    height: 15rem !important;
+    border-top-left-radius: 0.25rem; /* 4px */
+    border-top-right-radius: 0.25rem; /* 4px */
     object-fit: cover;
-    border: 1px solid #e0e0e0;
 }
 /* .business-heading
 {
-    padding: 64px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
 } */
+.title
+{
+    font-size: 16px;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
 .business-details-section
 {
-    background-color: #fafafb;
+    /* background-color: #fafafb; */
     /* padding: 32px 0px; */
 }
 /* .details-div-1
 {
     padding: 32px 0px;;
 } */
-.contact-business
+/* .contact-business
 {
     width: 320px;
     height: 60px;
     background-color: #fac300;
     color: white;
     font-weight: bold;
-}
+} */
 .absolute-buttons
 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #fac300;
+    /* background-color: #fac300; */
     padding: 8px;
     color: white;
     font-weight: bold;
@@ -52,7 +63,14 @@
 {
     display: flex;
     justify-content: space-between;
-    padding-top: 4px;
+}
+.weekdays-section span
+{
+    margin: 5px 0px;
+}
+.business-links a
+{
+    margin-right: 30px;
 }
 @media all and (max-width: 420px) 
 {
@@ -66,3 +84,10 @@
       padding: 32px 0px 16px 0px;
     } */
 }
+.share-links svg
+{
+    width: 30px;
+    height: auto;
+    margin-right: 2rem;
+}
+

@@ -1,10 +1,14 @@
 .header-nav
 {
-    background-color: white;
+    /* background-color: white; */
+    align-items: center;
+}
+.nav-div
+{
     display: flex;
     justify-content: space-between;
-    border: 1px solid #f4f4f4;
     align-items: center;
+    margin: 0% auto !important;
 }
 .header-lists ul
 {
@@ -13,14 +17,37 @@
 }
 .header-lists li
 {
-    padding-left: 10px;
+    padding-left: 1.5rem;
     margin: 10px 0px;
     font-weight:bold;
 }
-.logo-button:hover
+.logo-button:hover, .mob-ham a:hover
 {
     text-decoration: underline;
 }
-
-
+.mob-ham
+{
+    display: none;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 0;
+    z-index: 10;
+}
+.mob-ham ul
+{
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+.mob-ham li
+{
+    margin: 2rem 0;
+}
+@media only screen and (min-width: 768px) 
+{
+    .mob-ham
+    {
+        display: none !important;
+    }
+}
 

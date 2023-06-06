@@ -1,6 +1,11 @@
-.footer-section
+/* .outer-footer-div
 {
     background-color: #fafafb;
+} */
+
+.footer-section
+{
+    margin: 0 auto !important;
     padding-top: 32px;
     padding-bottom: 32px;
 }
@@ -33,7 +38,7 @@
 }
 .join-button
 {
-    background-color: #fac300;
+    /* background-color: #fac300; */
     color: white;
     padding: 9px;
 }
@@ -51,5 +56,4 @@ input[type="text"]
 .useful-and-quick-links
 {
     display: flex;
-    justify-content: space-between;
 }

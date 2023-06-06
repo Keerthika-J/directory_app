@@ -1,0 +1,13 @@
+.filters-section
+{
+    display: flex;  
+    justify-content: space-between;
+}
+.filters-section select
+{
+    border-radius: 4px;
+    height: 50px;
+    padding: 12px;
+    background-color: white;
+    border: 1px solid #ddd;
+}

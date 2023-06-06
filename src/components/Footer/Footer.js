@@ -3,8 +3,8 @@ import "./Footer.css";
 export default function Footer() 
 {
   return (
-<>
-  <div class="footer-section w-full border-t-4 border-yellow grid grid-cols-1 lg:grid-cols-3 gap-8 px-4 md:px-8 lg:px-44">
+<div class="outer-footer-div border-t-4 border-primary bg-secondary">
+  <div class="footer-section w-full grid grid-cols-1 lg:grid-cols-3 gap-8 ">
       <div class="logo-col">
         <div class='logo-div'>
           <button class='logo-button text-xl md:text-3xl font-bold'>
@@ -15,7 +15,7 @@ export default function Footer()
             <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus eleifend risus ut congue.</span>
         </div>
       </div>
-      <div class="useful-and-quick-links">
+      <div class="useful-and-quick-links justify-between md:justify-around">
       <div class="useful-links">
         <h1>Useful Links</h1>
         <ul class="mt-8">
@@ -39,8 +39,8 @@ export default function Footer()
         <h1>Join our newsletter</h1>
         <span class="mt-8">We write rarely, but only the best content.</span>
         <div class="">
-            <input type="text" class="border my-4" placeholder="Email Address Here.."></input>
-            <button class="join-button">Join</button>
+            <input type="text" class="border my-4 w-3/5" placeholder="Email Address Here.."></input>
+            <button class="join-button bg-primary">Join</button>
         </div>
         <span>We'll never share your details. See our Privacy Policy</span>
       </div>
@@ -50,6 +50,6 @@ export default function Footer()
       </div>
     </div>
     
-</>
+</div>
   )
 }

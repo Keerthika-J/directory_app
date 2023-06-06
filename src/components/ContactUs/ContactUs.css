@@ -2,18 +2,20 @@
 {
     padding-top: 32px;
     padding-bottom: 32px;
-    background-color: #fafafb;
+}
+.contact-heading
+{
+    padding-bottom: 32px;
 }
 .send-mail-section
 {
     padding-top: 32px;
     padding-bottom: 32px;
-    background-color: white;
     border: 1px solid #e0e0e0;
 }
 .lets-talk-section,.send-mail-section
 {
-    margin: 64px 0px;
+    /* margin: 64px 0px; */
 }
 .lets-talk-subheading
 {
@@ -33,7 +35,6 @@
 }
 .send-mail-section input,textarea
 {
-    background-color:#fafafb;
     border: none;
     outline: none;
     border: 1px solid #e0e0e0;
@@ -52,10 +53,9 @@
 .send-msg-button
 {
     height: 50px;
-    background-color: #fac300;
     padding: 15px 25px;
     color: white;
     font-weight: bold;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 4px;
 }

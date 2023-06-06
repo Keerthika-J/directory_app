@@ -11,24 +11,22 @@ import Footer from './components/Footer/Footer';
 import ContactUs from './components/ContactUs/ContactUs';
 import AboutUs from './components/AboutUs/AboutUs';
 import HowItWorks from './components/HowItWorks/HowItWorks';
+import Search from './components/Search/Search';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
-      <header>
-        <Header/>
-      </header>
+      <header><Header/></header>
       <Routes>  
         <Route exact path='/' element={< Main />}></Route>  
+        <Route exact path='/search' element={< Search />}></Route>
         <Route exact path='/contact-us' element={< ContactUs />}></Route>
         <Route exact path='/about-us' element={< AboutUs />}></Route>
         <Route exact path='/how-it-works' element={< HowItWorks />}></Route>
-        <Route exact path='/business-details' element={< BusinessDetails />}></Route>  
+        <Route exact path='/business-details/:industry/:id' element={< BusinessDetails />}></Route>  
       </Routes> 
     </Router>
-    <footer>
-        <Footer/>
-    </footer> 
+    <footer><Footer/></footer> 
   </React.StrictMode>
 );
 reportWebVitals();
